@@ -1,0 +1,27 @@
+# Planning Poker
+Projektidee ist es eine Anwendung zu erstellen mit der Teams ein Planning Poker,
+auch Scrum Poker genannt, durchführen können.
+
+Product Owner können in einem gesichterten Bereich der Anwendung ein Product
+Backlog erstellen. In diesem Bereich ist es möglich neue User Stories mit Titel
+und Beschreibung zu erstellen oder zu importieren. Des Weiteren können bereits
+vorhandene User Stories bearbeitet oder gelöscht werden. Außerdem können die
+User Stories innerhalb des Product Backlogs priorisiert werden.
+In dem gesicherten Bereich kann ebenfalls ein Link generiert werden, über den
+andere Teammitglieder an der Planning Poker Sitzung teilnehmen können.
+
+Um an einer Planning Poker Sitzung teilnehmen zu können, müssen die
+Teammitglieder den generierten Link öffnen und zunächst ihren Namen eingeben.
+
+Anschließend wird die erste User Story dem Teammitglied präsentiert. Das
+Teammitglied hat dann die Möglichkeit seine Aufwandsschätzung auszuwählen.
+Nachdem alle Teammitglieder eine Aufwandsschätzung ausgewählt haben, wird allen
+Teammitgliedern das Ergebnis angezeigt. Der Product Owner hat dann die
+Möglichkeit, der User Story eine feste Aufwandsschätzung zuzuordnen.
+
+Nachdem der User Story eine feste Aufwandsschätzung hinzugefügt wurde, wird
+allen Teammitgliedern die nächste User Story angezeigt und der Ablauf wiederholt
+sich.
+
+Die Sitzung ist beendet, sobald alle Teammitglieder die Sitzung verlassen haben,
+oder keine weiteren ungeschätzten User Stories vorhanden sind.
