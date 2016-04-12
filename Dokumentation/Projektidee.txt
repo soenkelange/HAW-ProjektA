@@ -1,3 +1,21 @@
+=== Projektbeschreibung - Brettspiel Attika, 2016-04-12 ===
+Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen
+antiken
+Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
+
+Die Anwendung muss das Spielfeld entsprechend der Anzahl der Spieler und der bereits errichteten Gebäude
+anzeigen. Den Spielern muss zu Beginn ihrer Spielzüge eine Wahlmöglichkeit angezeigt werden, um sich für das
+Aufdecken oder das Bauen von Gebäuden zu entscheiden. Wenn der Benutzer sich für das Aufdecken von Gebäuden
+entscheided, muss ihm Außerdem die Wahlmöglichkeit zwischen dem Ablegen auf Ablagefeld oder dem sofortigen Bauen des
+Gebäudes angezeigt werden. Jedes Mal wenn der aktive Spieler während seines Zuges für das Bauen entscheided, muss die
+Anwendung die Möglichkeit bieten, dass entsprechende Gebäude auf dem Spielfeld zu platzieren. Nach jeder Aktion muss
+dem Spieler außerdem die Möglichkeit angezeigt werden, sich für eine Landschaftskarte zu entschieden, die ihm dann
+automatisch zugelost wird. Am Ende eines Spielzuges wird dem Spieler eine Auswahl angezeigt, die es ihm ermöglicht
+seinen Spielzug mit Hilfe von Amphoren zu verlängern, sofern diese vorhanden sind.
+
+Neben den verschiedenen Wahlmöglichkeiten und Darstellungen müssen die Spielregeln umgesetzt werden. Außerdem muss
+eine Möglichkeit geschaffen werden, mit der entschieden werden kann, ob ein Spieler zwei Heiligtümer miteinander verbunden hat.
+
 === Projektidee soenkelange, 2016-04-05 ===
 
 # Planning Poker
