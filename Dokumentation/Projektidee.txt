@@ -1,20 +1,16 @@
 === Projektbeschreibung - Brettspiel Attika, 2016-04-12 ===
-Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen
-antiken
-Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
-Die Anwendung muss das Spielfeld entsprechend der Anzahl der Spieler und der bereits errichteten Gebäude
-anzeigen. Den Spielern muss zu Beginn ihrer Spielzüge eine Wahlmöglichkeit angezeigt werden, um sich für das
-Aufdecken oder das Bauen von Gebäuden zu entscheiden. Wenn der Benutzer sich für das Aufdecken von Gebäuden
-entscheided, muss ihm Außerdem die Wahlmöglichkeit zwischen dem Ablegen auf Ablagefeld oder dem sofortigen Bauen des
-Gebäudes angezeigt werden. Jedes Mal wenn der aktive Spieler während seines Zuges für das Bauen entscheided, muss die
-Anwendung die Möglichkeit bieten, dass entsprechende Gebäude auf dem Spielfeld zu platzieren. Nach jeder Aktion muss
-dem Spieler außerdem die Möglichkeit angezeigt werden, sich für eine Landschaftskarte zu entschieden, die ihm dann
-automatisch zugelost wird. Am Ende eines Spielzuges wird dem Spieler eine Auswahl angezeigt, die es ihm ermöglicht
-seinen Spielzug mit Hilfe von Amphoren zu verlängern, sofern diese vorhanden sind.
+Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
-Neben den verschiedenen Wahlmöglichkeiten und Darstellungen müssen die Spielregeln umgesetzt werden. Außerdem muss
-eine Möglichkeit geschaffen werden, mit der entschieden werden kann, ob ein Spieler zwei Heiligtümer miteinander verbunden hat.
+- Die Anwendung muss das Spielfeld entsprechend der Anzahl der Spieler und der bereits errichteten Gebäude anzeigen. 
+- Den Spielern muss zu Beginn ihrer Spielzüge eine Wahlmöglichkeit angezeigt werden, um sich für das Aufdecken oder das Bauen von Gebäuden zu entscheiden. 
+- Wenn der Benutzer sich für das Aufdecken von Gebäuden entscheided, muss ihm Außerdem die Wahlmöglichkeit zwischen dem Ablegen auf Ablagefeld oder dem sofortigen Bauen des Gebäudes angezeigt werden. 
+- Jedes Mal wenn der aktive Spieler während seines Zuges für das Bauen entscheided, muss die Anwendung die Möglichkeit bieten, dass entsprechende Gebäude auf dem Spielfeld zu platzieren. 
+- Nach jeder Aktion muss dem Spieler außerdem die Möglichkeit angezeigt werden, sich für eine Landschaftskarte zu entschieden, die ihm dann automatisch zugelost wird. 
+- Am Ende eines Spielzuges wird dem Spieler eine Auswahl angezeigt, die es ihm ermöglicht seinen Spielzug mit Hilfe von Amphoren zu verlängern, sofern diese vorhanden sind.
+
+Neben den verschiedenen Wahlmöglichkeiten und Darstellungen müssen die Spielregeln umgesetzt werden. 
+Außerdem muss eine Möglichkeit geschaffen werden, mit der entschieden werden kann, ob ein Spieler zwei Heiligtümer miteinander verbunden hat.
 
 === Projektidee soenkelange, 2016-04-05 ===
 
@@ -133,3 +129,32 @@ Es ist dabei sehr wahrscheinlich, dass Sie (vielleicht auch erst später währen
 
 Viele Grüße,
 Markus Alpers
+
+===================================
+=== Feedback Alpers, 2016-05-03 ===
+===================================
+
+Gute Zusammenfassung des Spielinhalts am Anfang.
+
+Sehr gute, weil knappe aber verständliche Zusammenfassung des Spielablaufs. Insbesondere ist es sehr gut, dass diese Beschreibung nicht mehr ein Brettspiel voraussetzt, sondern als Grundlage einer webbasierten Anwendung nutzbar ist.
+
+Aber genau hier liegt auch der Knackpunkt Ihrer Beschreibung: Momentan beinhaltet die Beschreibung die essentiellen Aspekte einer webbasierten interaktiven Anwendung noch nicht:
+- Es fehlt noch die "echte" Interaktion zwischen Mensch und Programm. Das Programm scheint aktuell nur die Datenübertragung realisieren, aber keine eigenen Programmlogik realisieren.
+- Ebenfalls fehlt noch die Beschreibung davon, wie Sie das Webbasierte ins Spiel bringen wollen.
+
+Arbeiten Sie diese beiden Punkte noch nach. Sie werden dabei feststellen, dass beides noch sehr viel Arbeit nach sich ziehen wird.
+
+Aber Sie haben einen wichtigen ersten Schritt bei der Projektbeschreibung geschafft: Sie haben eine Beschreibung erstellt, die sowohl klar verständlich ist als auch viel Raum für Ausgestaltung bietet.
+
+Einziges Manko in Ihrer Beschreibung: Die letzten beiden Sätze sind nicht Teil der Projektbeschreibung, sondern Teil der Dokumentation bzw. der Arbeitsplanung. (In solchen Fällen sollten Sie eine entsprechende Überschrift davor notieren.)
+
+Wertung 2: Projektbeschreibung: gesamt: 5 / 10
+- Pro Interaktionsmöglichkeit: 0 (Da Sie die Interaktion zwischen Mensch und Programm noch nicht ausgearbeitet haben. Schauen Sie sich ggf. nochmal an, was ich zum Begriff der Interaktion geschrieben hatte.)
+- Knappe aber klare Beschreibung: 5
+- Werbeslogans u.ä.: 0
+- Designaspekte: 0 
+- Voraussetzung bekannten Wissens: 0 
+
+=====================
+=== Feedback Ende ===
+=====================
