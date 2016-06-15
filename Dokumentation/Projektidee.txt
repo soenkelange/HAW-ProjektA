@@ -2,15 +2,51 @@
 
 Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
-- Die Anwendung muss das Spielfeld entsprechend der Anzahl der Spieler und der bereits errichteten Gebäude anzeigen. 
-- Den Spielern muss zu Beginn ihrer Spielzüge eine Wahlmöglichkeit angezeigt werden, um sich für das Aufdecken oder das Bauen von Gebäuden zu entscheiden. 
-- Wenn der Benutzer sich für das Aufdecken von Gebäuden entscheided, muss ihm Außerdem die Wahlmöglichkeit zwischen dem Ablegen auf Ablagefeld oder dem sofortigen Bauen des Gebäudes angezeigt werden. 
-- Jedes Mal wenn der aktive Spieler während seines Zuges für das Bauen entscheided, muss die Anwendung die Möglichkeit bieten, dass entsprechende Gebäude auf dem Spielfeld zu platzieren. 
-- Nach jeder Aktion muss dem Spieler außerdem die Möglichkeit angezeigt werden, sich für eine Landschaftskarte zu entschieden, die ihm dann automatisch zugelost wird. 
-- Am Ende eines Spielzuges wird dem Spieler eine Auswahl angezeigt, die es ihm ermöglicht seinen Spielzug mit Hilfe von Amphoren zu verlängern, sofern diese vorhanden sind.
+- Spieler haben über Texteingabefelder die Möglichkeit ihre Namen einzugeben und zu bestätigen, wodurch das Spiel
+gestartet wird.
+- Abhängig von der Anzahl der eingegebenen Namen wird das Spielfeld generiert
+- Des Weiteren wird bei Spielstart der Spieler der Anfängt ausgelost und alle Spieler erhalten jeweils ein Hauptgebäude
+und drei Nebengebaude zugelost. Abhängig von ihrer Position in der Spielreihenfolge erhalten sie außerdem Resourcen
+zugelost.
+- Nach der initialisierung des Spiels beginnt der erste Zug der Startspielers
 
-Neben den verschiedenen Wahlmöglichkeiten und Darstellungen müssen die Spielregeln umgesetzt werden. 
-Außerdem muss eine Möglichkeit geschaffen werden, mit der entschieden werden kann, ob ein Spieler zwei Heiligtümer miteinander verbunden hat.
+- Zu Beginn des Zuges bekommt der Spieler die Wahlmöglichkeit zwischen Aufdecken von Gebäuden oder dem Bauen von
+Gebäuden durch die Anwendung angezeigt
+
+- Entscheidet der Spieler sich für das Aufdecken von Gebäuden, wird ihm die Wahlmöglichkeit zwischen dem
+Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehn von drei Resourcen angezeigt
+- Wenn der Spieler sich für das das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, bekommt er ein
+entsprechendes Gebäude durch die Anwendung zugelost, welches auf einer Art Ablagetafel angezeigt wird. Anschließend
+erhält er wieder die Wahl zwischen dem Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder von nun nur noch einer
+Resourcen angezeigt. Dies kann sich ingesamt zwei Mal wiederholen.
+- Entscheidet sich der Spieler in einem Schritt für das Aufdecken von Resourcen, wird ihm eine Resource zugelost und
+auch diese auf der Ablagetafel dargestellt und sein Zug ist beendet.
+
+
+- Hat sich der Spieler zum Anfang seines Zuges für das Bauen von Gebäuden entschieden, wird ihm die Wahlmöglichkeit
+zwischen dem Bauen eines Gebäudes oder dem ziehen von drei Resourcen angezeigt
+- Entscheided sich der Spieler für das Bauen eines Gebäudes, wird ihm seine Ablagetafel und das Spielfeld angezeigt.
+- Der Spieler kann nun eines der auf der Ablagetafel abgelegten Gebäude auswählen.
+- Wenn der Spieler eine Straße bauen ausgewählt hat, muss er zunächst entsprechend der Baukosten für Straßen
+Resourcen von seiner Ablagetafel auswählen
+- Während der Benutzer die Maus über die einzelnen Spielfelder bewegt, wird ihm angezeigt ob er das Gebäude dort
+bauen kann, wenn ja, wie teuer dies ist, und wenn nein, warum er dies dort nicht bauen kann (siehe Bauregeln des
+Spiels Attika)
+- Sobald der Benutzer auf ein Spielfeld klickt, muss er die Eingabe bestätigen und das Gebäude wird auf dem
+entsprechenden Spielfeld dargestellt. Zudem werden die verbauten Resourcen und das Gebäude nicht mehr auf der
+Ablagetafel angezeigt
+- Nach dem Bauen erhält der Benutzer wieder die Möglichkeit zwischen dem Bauen eines Gebäudes oder dem von nun nur
+noch zwei Resourcen angezeigt. Dies kann sich insgesamt drei Mal wiederholen.
+- Auch hier ist der Zug des Spielers beendet, sobald er sich für das Aufdecken von Resourcen entscheidet.
+
+- Ist der Zug eines Spielers beendet, wird geprüft ob er sog. Amphoren zur Verfügung hat und wenn ja, bekommt der
+Spieler
+die Möglichkeit seinen Zug zu verländertn (Aufdecken, Bauen oder ziehen einer Resource)
+- Anschließend wird geprüft, ob der Spieler durch geschicktes Bauen eine Amphore verdient hat. Wenn ja, wird dies dem
+ Spieler angezeigt und die Amphore auf der Ablagetafel angezeigt.
+- Ist der Zug eines Spielers entgültig beendet, wird die Oberfläche entsprechend der Farbe des nächsten Spielers
+angepasst und
+der Zug des Spielers beginnt so, wie der Zug des Startspielers.
 
 === Projektidee soenkelange, 2016-04-05 ===
 
