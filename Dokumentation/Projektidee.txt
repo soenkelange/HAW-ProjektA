@@ -121,7 +121,15 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Voraussetzung bekannten Wissens: 0 
 
 ===================================
-=== Feedback Alpers, 2016-05-03 ===
+=== Feedback Alpers, 2016-06-14 ===
 ===================================
 
 Keine Änderungen seit dem letzten Feedback.
+
+===================================
+=== Feedback Alpers, 2016-07-15 ===
+===================================
+
+Die Änderungen beschreiben, wie z.B. das Spielfeld in Abhängigkeit von der Spieleranzahl generiert wird. Das ist gut und sinnvoll, eine Interaktion in der geforderten Form ist das aber noch nicht. Die Wertung der Beschreibung bleibt deshalb gleich.
+
+Leider haben Sie ansonsten nichts am Projekt geändert und haben damit seit dem letzten Feedback effektiv höchstens eine Stunde ins Projekt gesteckt. Das ist deutlich zu wenig.
