@@ -133,3 +133,11 @@ Keine Änderungen seit dem letzten Feedback.
 Die Änderungen beschreiben, wie z.B. das Spielfeld in Abhängigkeit von der Spieleranzahl generiert wird. Das ist gut und sinnvoll, eine Interaktion in der geforderten Form ist das aber noch nicht. Die Wertung der Beschreibung bleibt deshalb gleich.
 
 Leider haben Sie ansonsten nichts am Projekt geändert und haben damit seit dem letzten Feedback effektiv höchstens eine Stunde ins Projekt gesteckt. Das ist deutlich zu wenig.
+
+===================================
+=== Feedback Alpers, 2016-07-28 ===
+===================================
+
+Leider keine Änderungen seit dem letzten Feedback. 
+
+Bitte beachten Sie, dass eine der Voraussetzungen zum Erhalt des Leistungsnachweises darin besteht, dass Sie kontinuierlich am Projekt arbeiten. Wie schon mehrfach erklärt gilt: Kontinuierliches Arbeiten bedeutet jede Woche am Projekt zu arbeiten. Und da für das Projekt ein Arbeitsaufwand von 80 Stunden (innerhalb der 16 Wochen Vorlesungszeit) aufgebracht werden soll, bedeutet das, dass Sie pro Woche 5 Stunden für das Projekt investieren müssen. Dagegen haben Sie seit Beginn des Projekts im Schnitt nur einmal pro Monat am Projekt gearbeitet und dabei jeweils einen Aufwand von ein bis zwei Stunden investiert. Wenn Sie weiterhin derart wenig am Projekt arbeiten, dann muss ich es auf der Basis des aktuellen Stands bewerten.
