@@ -1,5 +1,7 @@
 === Jetzt nach den Regeln für das Projekt 1, WiSe 2016/17 ===
-=== Projektbeschreibung - Brettspiel Attika, 2016-04-12 ===
+==============================================================================
+=== Projektbeschreibung - Brettspiel Attika, v_1.0.0, 2016-09-20 ===
+==============================================================================
 
 Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
@@ -17,8 +19,24 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Nach der Initialisierung des Spiels beginnt der erste Zug der Startspielers
 
 
-- Zu Beginn des Zuges bekommt der Spieler die Wahlmöglichkeit zwischen Aufdecken von Gebäuden oder dem Bauen von
-Gebäuden durch die Anwendung angezeigt
+// Spielzug
+- Zu Beginn seines Spielzuges bekommt der Spieler zwei Schaltflächen angezeigt, über die er sich zum einen für das Aufdecken von Gebäuden oder dem Bauen von Gebäuden entscheiden kann
+
+//// Aufdecken
+- Wenn sich der Spieler für das Aufdecken von Gebäuden entscheidet, in dem er auf die entsprechende Schaltfläche
+drückt, bekommt der Spieler drei Schaltflächen angezeigt, über die er sich für das Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehen von drei Resourcen entscheiden kann
+- Wenn sich der Spieler für das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, in dem er auf die entsprechende
+Schaltfläche drückt, bekommt er durch die Anwendung ein entsprechendes Gebäude per Zufallsgenerator zugelost
+- Nachdem dem Spieler durch die Anwendung ein Gebäude zugelost bekommen hat, wird ihm das Gebäude und
+erneut die vorherige Auswahlmöglichkeit angezeigt, allerdings mit einer reduzierten Anzahl an Resourcen angezeigt.
+- Der Spieler kann sich ingesamt drei Mal für das Aufdecken von Gebäuden entscheiden, danach ist sein Spielzug beendet.
+- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche
+drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost.
+- Wenn der Spielzug des Spielers beendet ist,
+
+
+// TODO
+//// Bauen von Gebäuden
 
 - Entscheidet der Spieler sich für das Aufdecken von Gebäuden, wird ihm die Wahlmöglichkeit zwischen dem
 Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehn von drei Resourcen angezeigt
@@ -32,7 +50,7 @@ auch diese auf der Ablagetafel dargestellt und sein Zug ist beendet.
 
 - Hat sich der Spieler zum Anfang seines Zuges für das Bauen von Gebäuden entschieden, wird ihm die Wahlmöglichkeit
 zwischen dem Bauen eines Gebäudes oder dem ziehen von drei Resourcen angezeigt
-- Entscheided sich der Spieler für das Bauen eines Gebäudes, wird ihm seine Ablagetafel und das Spielfeld angezeigt.
+- Entscheidet sich der Spieler für das Bauen eines Gebäudes, wird ihm seine Ablagetafel und das Spielfeld angezeigt.
 - Der Spieler kann nun eines der auf der Ablagetafel abgelegten Gebäude auswählen.
 - Wenn der Spieler eine Straße bauen ausgewählt hat, muss er zunächst entsprechend der Baukosten für Straßen
 Resourcen von seiner Ablagetafel auswählen
