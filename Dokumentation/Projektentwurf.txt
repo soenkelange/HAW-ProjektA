@@ -3,13 +3,19 @@
 
 Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
-- Spieler haben über Texteingabefelder die Möglichkeit ihre Namen einzugeben und zu bestätigen, wodurch das Spiel
-gestartet wird.
+// Startseite
+- Zwei bis vier Spieler haben über vier Texteingabefeld ihren Namen einzugeben.
+- Durch eine Schaltfläche können die Spieler ihre Eingabe bestätigen.
+- Wenn nicht mindestens zwei Textfelder mit Text befüllt sind, wird den Spieler eine Fehlermeldung angezeigt.
+- Wenn mindestens zwei Textfelder mit Text befüll sind, werden die Spieler zum Spiel weitergeleitet
+
+// Spielstart
 - Abhängig von der Anzahl der eingegebenen Namen wird das Spielfeld generiert
-- Des Weiteren wird bei Spielstart der Spieler der Anfängt ausgelost und alle Spieler erhalten jeweils ein Hauptgebäude
-und drei Nebengebaude zugelost. Abhängig von ihrer Position in der Spielreihenfolge erhalten sie außerdem Resourcen
-zugelost.
-- Nach der initialisierung des Spiels beginnt der erste Zug der Startspielers
+- Des Weiteren wird bei Spielstart der Spieler der Anfängt durch einen Zufallsgenerator ausgelost
+- Hinzu kommt, dass alle Spieler jeweils ein Hauptgebäude und drei Nebengebaude durch einen Zufallsgenerator zugelost
+- Abhängig von ihrer Position in der Spielreihenfolge erhalten die Spieler außerdem Resourcen zugelost
+- Nach der Initialisierung des Spiels beginnt der erste Zug der Startspielers
+
 
 - Zu Beginn des Zuges bekommt der Spieler die Wahlmöglichkeit zwischen Aufdecken von Gebäuden oder dem Bauen von
 Gebäuden durch die Anwendung angezeigt
