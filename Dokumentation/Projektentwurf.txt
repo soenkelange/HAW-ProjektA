@@ -50,6 +50,9 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Wenn der Spieler eine Amphore verdient hat, wird ihm dies für einen bestimmten Zeitraum angezeigt.
 - Anschließend wird er weitergeleitet und ihm wird angezeigt, welcher Spieler nun an der Reihe ist.
 
+// Spielende
+- Sobald ein Spieler während seines Zuges alle 30 Gebäude verbaut oder zwei Heiligtümer miteinander verbunden hat, ist das Spiel beendet und wird den Spielern ein Hinweis angezeigt, wenn das Spiel gewonnen hat.
+
 === Projektidee soenkelange, 2016-04-05 ===
 
 # Planning Poker
