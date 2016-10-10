@@ -42,15 +42,13 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Der Spieler kann sich ingesamt drei Mal für das Bauen von Gebäuden entscheiden, danach ist sein Spielzug beendet.
 - Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost und sein Spielzug ist beendet.
 
-TODO
-- Ist der Zug eines Spielers beendet, wird geprüft ob er sog. Amphoren zur Verfügung hat und wenn ja, bekommt der
-Spieler
-die Möglichkeit seinen Zug zu verländertn (Aufdecken, Bauen oder ziehen einer Resource)
-- Anschließend wird geprüft, ob der Spieler durch geschicktes Bauen eine Amphore verdient hat. Wenn ja, wird dies dem
- Spieler angezeigt und die Amphore auf der Ablagetafel angezeigt.
-- Ist der Zug eines Spielers entgültig beendet, wird die Oberfläche entsprechend der Farbe des nächsten Spielers
-angepasst und
-der Zug des Spielers beginnt so, wie der Zug des Startspielers.
+//// Spielzugende
+- Bevor der Spielzug eines Spielers entgültig beendet ist, wird geprüft, ob der Spieler über sog. Amphoren verfügt.
+- Wenn der Spieler über Amphoren verfügt, bekommt der Spieler einen Hinweis, dass er seinen Spielzug verlängern kann, und zwei Schaltflächen zum Verlängern des Spielzugs bzw. zum nicht Verlängern angezeigt.
+- Entscheidet sich der Spieler für das Verlängern seines Zuges, dass war je nachdem was er zuvor gewählt hat, noch ein Gebäude bauen, ein Gebäude aufdecken oder er bekommt noch eine Resource zugelost.
+- Sobald der Spieler alle seine Möglichkeiten ausgespielt hat, wird geprüft ob der Spieler eine Amphore durch zusammenhängendes Bauen von Gruppen verdient hat
+- Wenn der Spieler eine Amphore verdient hat, wird ihm dies für einen bestimmten Zeitraum angezeigt.
+- Anschließend wird er weitergeleitet und ihm wird angezeigt, welcher Spieler nun an der Reihe ist.
 
 === Projektidee soenkelange, 2016-04-05 ===
 
