@@ -1,28 +1,27 @@
 === Jetzt nach den Regeln für das Projekt 1, WiSe 2016/17 ===
 ==============================================================================
-=== Projektbeschreibung - Brettspiel Attika, v_1.0.0, 2016-09-20 ===
+=== Projektbeschreibung - Brettspiel Attika, v_1.0.1, 2016-10-10 ===
 ==============================================================================
 
 Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
 // Startseite
-- Zwei bis vier Spieler haben über vier Texteingabefeld ihren Namen einzugeben.
+- Zwei bis vier Spieler können über vier Texteingabefelder ihren Namen eingeben.
 - Durch eine Schaltfläche können die Spieler ihre Eingabe bestätigen.
-- Wenn nicht mindestens zwei Textfelder mit Text befüllt sind, wird den Spieler eine Fehlermeldung angezeigt.
-- Wenn mindestens zwei Textfelder mit Text befüll sind, werden die Spieler zum Spiel weitergeleitet
+- Wenn nicht mindestens zwei Textfelder mit Text befüllt sind, wird den Spielern eine Fehlermeldung angezeigt, sobald das Formular abgeschickt wird
+- Wenn mindestens zwei Textfelder mit Text befüllt sind, werden die Spieler zum Spiel weitergeleitet, sobald das Formular abgeschickt wird
 
 // Spielstart
 - Abhängig von der Anzahl der eingegebenen Namen wird das Spielfeld generiert
 - Des Weiteren wird bei Spielstart der Spieler der Anfängt durch einen Zufallsgenerator ausgelost
-- Hinzu kommt, dass alle Spieler jeweils ein Hauptgebäude und drei Nebengebaude durch einen Zufallsgenerator zugelost
+- Hinzu kommt, dass alle Spieler jeweils ein Hauptgebäude und drei Nebengebaude durch einen Zufallsgenerator zugelost bekommen
 - Abhängig von ihrer Position in der Spielreihenfolge erhalten die Spieler außerdem Resourcen zugelost
 - Nach der Initialisierung des Spiels beginnt der erste Zug der Startspielers
-
 
 // Spielzug
 - Zu Beginn seines Spielzuges bekommt der Spieler zwei Schaltflächen angezeigt, über die er sich zum einen für das Aufdecken von Gebäuden oder dem Bauen von Gebäuden entscheiden kann
 
-//// Aufdecken
+//// Aufdecken von Gebäuden
 - Wenn sich der Spieler für das Aufdecken von Gebäuden entscheidet, in dem er auf die entsprechende Schaltfläche
 drückt, bekommt der Spieler drei Schaltflächen angezeigt, über die er sich für das Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehen von drei Resourcen entscheiden kann
 - Wenn sich der Spieler für das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, in dem er auf die entsprechende
