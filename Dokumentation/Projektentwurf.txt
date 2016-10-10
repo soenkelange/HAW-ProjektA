@@ -22,47 +22,27 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Zu Beginn seines Spielzuges bekommt der Spieler zwei Schaltflächen angezeigt, über die er sich zum einen für das Aufdecken von Gebäuden oder dem Bauen von Gebäuden entscheiden kann
 
 //// Aufdecken von Gebäuden
-- Wenn sich der Spieler für das Aufdecken von Gebäuden entscheidet, in dem er auf die entsprechende Schaltfläche
-drückt, bekommt der Spieler drei Schaltflächen angezeigt, über die er sich für das Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehen von drei Resourcen entscheiden kann
-- Wenn sich der Spieler für das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, in dem er auf die entsprechende
-Schaltfläche drückt, bekommt er durch die Anwendung ein entsprechendes Gebäude per Zufallsgenerator zugelost
-- Nachdem dem Spieler durch die Anwendung ein Gebäude zugelost bekommen hat, wird ihm das Gebäude und
-erneut die vorherige Auswahlmöglichkeit angezeigt, allerdings mit einer reduzierten Anzahl an Resourcen angezeigt.
+- Wenn sich der Spieler für das Aufdecken von Gebäuden entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt der Spieler drei Schaltflächen angezeigt, über die er sich für das Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehen von drei Resourcen entscheiden kann
+- Wenn sich der Spieler für das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung ein entsprechendes Gebäude per Zufallsgenerator zugelost
+- Nachdem dem Spieler durch die Anwendung ein Gebäude zugelost bekommen hat, wird ihm das Gebäude und erneut die vorherige Auswahlmöglichkeit angezeigt, allerdings mit einer reduzierten Anzahl an Resourcen angezeigt.
 - Der Spieler kann sich ingesamt drei Mal für das Aufdecken von Gebäuden entscheiden, danach ist sein Spielzug beendet.
-- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche
-drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost.
-- Wenn der Spielzug des Spielers beendet ist,
+- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost und sein Spielzug ist beendet.
 
-
-// TODO
 //// Bauen von Gebäuden
+- Wenn sich der Spieler zu Anfang seines Zuges für das Bauen von Gebäuden entscheided, in dem er auf die entsprechende Schaltfläche drückt, bekommt der Spieler zwei Schaltflächen angezeigt, um sich für das Bauen eines Gebäudes oder dem ziehen von drei Resourcen angezeigt.
+- Wenn sich der Spieler für das Bauen eines Gebäudes entscheidet, wird ihm seine Ablagetafel und das Spielfeld angezeigt.
+- Auf der Ablagetafel werden die Gebäude dargestellt, die er in vorherigen Zügen gezogen hat.
+- Sobald die Ablagetafel angezeigt wird, kann der Spieler eines der auf der Ablagetafel angezeigten Gebäuden auswählen.
+- Nachdem der Spieler ein Gebäude ausgewählt hat, wird er aufgefordert einen Bauplatz auf dem Spielfeld auszuwählen.
+- Wenn der Spieler einen Bauplatz ausgewählt hat, werden ihm die mit dem Bauplatz und dem Gebäude verbunden Baukosten angezeigt und er kann das Bauen bestätigen oder ablehnen.
+- Wenn der Spieler eine Straße als Gebäude ausgewählt hat, dann wird ihm zudem eine Auswahlmöglichkeit angezeigt, um billige Resourcen zum Bauen auszuwählen, sofern dies nötig ist
+- Wenn der Spieler das Bauen ablehnt, kann er einen neuen Bauplatz auswählen.
+- Wenn der Spieler das Bauen bestätigt, wird das Gebäude auf dem entsprechenden Bauplatz angezeigt. Außerdem wird das Gebäude und die verwendeten Resourcen nicht mehr auf der Ablagetafel angezeigt.
+- Sobald der Spieler ein Gebäude gebaut hat, wird ihm erneut die Auswahlmöglichkeit zwischen dem Bauen eines Gebäudes und dem ziehen von nun mehr zwei Resourcen angezeigt.
+- Der Spieler kann sich ingesamt drei Mal für das Bauen von Gebäuden entscheiden, danach ist sein Spielzug beendet.
+- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost und sein Spielzug ist beendet.
 
-- Entscheidet der Spieler sich für das Aufdecken von Gebäuden, wird ihm die Wahlmöglichkeit zwischen dem
-Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehn von drei Resourcen angezeigt
-- Wenn der Spieler sich für das das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, bekommt er ein
-entsprechendes Gebäude durch die Anwendung zugelost, welches auf einer Art Ablagetafel angezeigt wird. Anschließend
-erhält er wieder die Wahl zwischen dem Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder von nun nur noch einer
-Resourcen angezeigt. Dies kann sich ingesamt zwei Mal wiederholen.
-- Entscheidet sich der Spieler in einem Schritt für das Aufdecken von Resourcen, wird ihm eine Resource zugelost und
-auch diese auf der Ablagetafel dargestellt und sein Zug ist beendet.
-
-
-- Hat sich der Spieler zum Anfang seines Zuges für das Bauen von Gebäuden entschieden, wird ihm die Wahlmöglichkeit
-zwischen dem Bauen eines Gebäudes oder dem ziehen von drei Resourcen angezeigt
-- Entscheidet sich der Spieler für das Bauen eines Gebäudes, wird ihm seine Ablagetafel und das Spielfeld angezeigt.
-- Der Spieler kann nun eines der auf der Ablagetafel abgelegten Gebäude auswählen.
-- Wenn der Spieler eine Straße bauen ausgewählt hat, muss er zunächst entsprechend der Baukosten für Straßen
-Resourcen von seiner Ablagetafel auswählen
-- Während der Benutzer die Maus über die einzelnen Spielfelder bewegt, wird ihm angezeigt ob er das Gebäude dort
-bauen kann, wenn ja, wie teuer dies ist, und wenn nein, warum er dies dort nicht bauen kann (siehe Bauregeln des
-Spiels Attika)
-- Sobald der Benutzer auf ein Spielfeld klickt, muss er die Eingabe bestätigen und das Gebäude wird auf dem
-entsprechenden Spielfeld dargestellt. Zudem werden die verbauten Resourcen und das Gebäude nicht mehr auf der
-Ablagetafel angezeigt
-- Nach dem Bauen erhält der Benutzer wieder die Möglichkeit zwischen dem Bauen eines Gebäudes oder dem von nun nur
-noch zwei Resourcen angezeigt. Dies kann sich insgesamt drei Mal wiederholen.
-- Auch hier ist der Zug des Spielers beendet, sobald er sich für das Aufdecken von Resourcen entscheidet.
-
+TODO
 - Ist der Zug eines Spielers beendet, wird geprüft ob er sog. Amphoren zur Verfügung hat und wenn ja, bekommt der
 Spieler
 die Möglichkeit seinen Zug zu verländertn (Aufdecken, Bauen oder ziehen einer Resource)
