@@ -6,52 +6,52 @@
 Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
 // Startseite
-- Zwei bis vier Spieler können über vier Texteingabefelder ihren Namen eingeben.
-- Durch eine Schaltfläche können die Spieler ihre Eingabe bestätigen.
-- Wenn nicht mindestens zwei Textfelder mit Text befüllt sind, wird den Spielern eine Fehlermeldung angezeigt, sobald das Formular abgeschickt wird
-- Wenn mindestens zwei Textfelder mit Text befüllt sind, werden die Spieler zum Spiel weitergeleitet, sobald das Formular abgeschickt wird
+- Zwei bis vier Spieler können über vier Texteingabefelder ihren Namen eingeben. (noch nicht umgesetzt)
+- Durch eine Schaltfläche können die Spieler ihre Eingabe bestätigen. (noch nicht umgesetzt)
+- Wenn nicht mindestens zwei Textfelder mit Text befüllt sind, wird den Spielern eine Fehlermeldung angezeigt, sobald das Formular abgeschickt wird (noch nicht umgesetzt)
+- Wenn mindestens zwei Textfelder mit Text befüllt sind, werden die Spieler zum Spiel weitergeleitet, sobald das Formular abgeschickt wird (noch nicht umgesetzt)
 
 // Spielstart
-- Abhängig von der Anzahl der eingegebenen Namen wird das Spielfeld generiert
-- Des Weiteren wird bei Spielstart der Spieler der Anfängt durch einen Zufallsgenerator ausgelost
-- Hinzu kommt, dass alle Spieler jeweils ein Hauptgebäude und drei Nebengebaude durch einen Zufallsgenerator zugelost bekommen
-- Abhängig von ihrer Position in der Spielreihenfolge erhalten die Spieler außerdem Resourcen zugelost
-- Nach der Initialisierung des Spiels beginnt der erste Zug der Startspielers
+- Abhängig von der Anzahl der eingegebenen Namen wird das Spielfeld generiert (noch nicht umgesetzt)
+- Des Weiteren wird bei Spielstart der Spieler der Anfängt durch einen Zufallsgenerator ausgelost (noch nicht umgesetzt)
+- Hinzu kommt, dass alle Spieler jeweils ein Hauptgebäude und drei Nebengebaude durch einen Zufallsgenerator zugelost bekommen (noch nicht umgesetzt)
+- Abhängig von ihrer Position in der Spielreihenfolge erhalten die Spieler außerdem Resourcen zugelost (noch nicht umgesetzt)
+- Nach der Initialisierung des Spiels beginnt der erste Zug der Startspielers (noch nicht umgesetzt)
 
 // Spielzug
-- Zu Beginn seines Spielzuges bekommt der Spieler zwei Schaltflächen angezeigt, über die er sich zum einen für das Aufdecken von Gebäuden oder dem Bauen von Gebäuden entscheiden kann
+- Zu Beginn seines Spielzuges bekommt der Spieler zwei Schaltflächen angezeigt, über die er sich zum einen für das Aufdecken von Gebäuden oder dem Bauen von Gebäuden entscheiden kann (noch nicht umgesetzt)
 
 //// Aufdecken von Gebäuden
-- Wenn sich der Spieler für das Aufdecken von Gebäuden entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt der Spieler drei Schaltflächen angezeigt, über die er sich für das Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehen von drei Resourcen entscheiden kann
-- Wenn sich der Spieler für das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung ein entsprechendes Gebäude per Zufallsgenerator zugelost
-- Nachdem dem Spieler durch die Anwendung ein Gebäude zugelost bekommen hat, wird ihm das Gebäude und erneut die vorherige Auswahlmöglichkeit angezeigt, allerdings mit einer reduzierten Anzahl an Resourcen angezeigt.
-- Der Spieler kann sich ingesamt drei Mal für das Aufdecken von Gebäuden entscheiden, danach ist sein Spielzug beendet.
-- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost und sein Spielzug ist beendet.
+- Wenn sich der Spieler für das Aufdecken von Gebäuden entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt der Spieler drei Schaltflächen angezeigt, über die er sich für das Aufdecken eines Hauptgebäudes, eines Nebengebäudes oder dem ziehen von drei Resourcen entscheiden kann (noch nicht umgesetzt)
+- Wenn sich der Spieler für das Aufdecken eines Haupt- oder Nebengebäudes entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung ein entsprechendes Gebäude per Zufallsgenerator zugelost (noch nicht umgesetzt)
+- Nachdem dem Spieler durch die Anwendung ein Gebäude zugelost bekommen hat, wird ihm das Gebäude und erneut die vorherige Auswahlmöglichkeit angezeigt, allerdings mit einer reduzierten Anzahl an Resourcen angezeigt. (noch nicht umgesetzt)
+- Der Spieler kann sich ingesamt drei Mal für das Aufdecken von Gebäuden entscheiden, danach ist sein Spielzug beendet. (noch nicht umgesetzt)
+- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost und sein Spielzug ist beendet. (noch nicht umgesetzt)
 
 //// Bauen von Gebäuden
-- Wenn sich der Spieler zu Anfang seines Zuges für das Bauen von Gebäuden entscheided, in dem er auf die entsprechende Schaltfläche drückt, bekommt der Spieler zwei Schaltflächen angezeigt, um sich für das Bauen eines Gebäudes oder dem ziehen von drei Resourcen angezeigt.
-- Wenn sich der Spieler für das Bauen eines Gebäudes entscheidet, wird ihm seine Ablagetafel und das Spielfeld angezeigt.
-- Auf der Ablagetafel werden die Gebäude dargestellt, die er in vorherigen Zügen gezogen hat.
-- Sobald die Ablagetafel angezeigt wird, kann der Spieler eines der auf der Ablagetafel angezeigten Gebäuden auswählen.
-- Nachdem der Spieler ein Gebäude ausgewählt hat, wird er aufgefordert einen Bauplatz auf dem Spielfeld auszuwählen.
-- Wenn der Spieler einen Bauplatz ausgewählt hat, werden ihm die mit dem Bauplatz und dem Gebäude verbunden Baukosten angezeigt und er kann das Bauen bestätigen oder ablehnen.
-- Wenn der Spieler eine Straße als Gebäude ausgewählt hat, dann wird ihm zudem eine Auswahlmöglichkeit angezeigt, um billige Resourcen zum Bauen auszuwählen, sofern dies nötig ist
-- Wenn der Spieler das Bauen ablehnt, kann er einen neuen Bauplatz auswählen.
-- Wenn der Spieler das Bauen bestätigt, wird das Gebäude auf dem entsprechenden Bauplatz angezeigt. Außerdem wird das Gebäude und die verwendeten Resourcen nicht mehr auf der Ablagetafel angezeigt.
-- Sobald der Spieler ein Gebäude gebaut hat, wird ihm erneut die Auswahlmöglichkeit zwischen dem Bauen eines Gebäudes und dem ziehen von nun mehr zwei Resourcen angezeigt.
-- Der Spieler kann sich ingesamt drei Mal für das Bauen von Gebäuden entscheiden, danach ist sein Spielzug beendet.
-- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost und sein Spielzug ist beendet.
+- Wenn sich der Spieler zu Anfang seines Zuges für das Bauen von Gebäuden entscheided, in dem er auf die entsprechende Schaltfläche drückt, bekommt der Spieler zwei Schaltflächen angezeigt, um sich für das Bauen eines Gebäudes oder dem ziehen von drei Resourcen angezeigt. (noch nicht umgesetzt)
+- Wenn sich der Spieler für das Bauen eines Gebäudes entscheidet, wird ihm seine Ablagetafel und das Spielfeld angezeigt. (noch nicht umgesetzt)
+- Auf der Ablagetafel werden die Gebäude dargestellt, die er in vorherigen Zügen gezogen hat. (noch nicht umgesetzt)
+- Sobald die Ablagetafel angezeigt wird, kann der Spieler eines der auf der Ablagetafel angezeigten Gebäuden auswählen. (noch nicht umgesetzt)
+- Nachdem der Spieler ein Gebäude ausgewählt hat, wird er aufgefordert einen Bauplatz auf dem Spielfeld auszuwählen. (noch nicht umgesetzt)
+- Wenn der Spieler einen Bauplatz ausgewählt hat, werden ihm die mit dem Bauplatz und dem Gebäude verbunden Baukosten angezeigt und er kann das Bauen bestätigen oder ablehnen. (noch nicht umgesetzt)
+- Wenn der Spieler eine Straße als Gebäude ausgewählt hat, dann wird ihm zudem eine Auswahlmöglichkeit angezeigt, um billige Resourcen zum Bauen auszuwählen, sofern dies nötig ist (noch nicht umgesetzt)
+- Wenn der Spieler das Bauen ablehnt, kann er einen neuen Bauplatz auswählen. (noch nicht umgesetzt)
+- Wenn der Spieler das Bauen bestätigt, wird das Gebäude auf dem entsprechenden Bauplatz angezeigt. Außerdem wird das Gebäude und die verwendeten Resourcen nicht mehr auf der Ablagetafel angezeigt. (noch nicht umgesetzt)
+- Sobald der Spieler ein Gebäude gebaut hat, wird ihm erneut die Auswahlmöglichkeit zwischen dem Bauen eines Gebäudes und dem ziehen von nun mehr zwei Resourcen angezeigt. (noch nicht umgesetzt)
+- Der Spieler kann sich ingesamt drei Mal für das Bauen von Gebäuden entscheiden, danach ist sein Spielzug beendet. (noch nicht umgesetzt)
+- Wenn sich der Spieler für das Aufdecken von Resourcen entscheidet, in dem er auf die entsprechende Schaltfläche drückt, bekommt er durch die Anwendung Resourcen per Zufallsgenerator zugelost und sein Spielzug ist beendet. (noch nicht umgesetzt)
 
-//// Spielzugende
-- Bevor der Spielzug eines Spielers entgültig beendet ist, wird geprüft, ob der Spieler über sog. Amphoren verfügt.
-- Wenn der Spieler über Amphoren verfügt, bekommt der Spieler einen Hinweis, dass er seinen Spielzug verlängern kann, und zwei Schaltflächen zum Verlängern des Spielzugs bzw. zum nicht Verlängern angezeigt.
-- Entscheidet sich der Spieler für das Verlängern seines Zuges, dass war je nachdem was er zuvor gewählt hat, noch ein Gebäude bauen, ein Gebäude aufdecken oder er bekommt noch eine Resource zugelost.
-- Sobald der Spieler alle seine Möglichkeiten ausgespielt hat, wird geprüft ob der Spieler eine Amphore durch zusammenhängendes Bauen von Gruppen verdient hat
-- Wenn der Spieler eine Amphore verdient hat, wird ihm dies für einen bestimmten Zeitraum angezeigt.
-- Anschließend wird er weitergeleitet und ihm wird angezeigt, welcher Spieler nun an der Reihe ist.
+//// Spielzugende (noch nicht umgesetzt)
+- Bevor der Spielzug eines Spielers entgültig beendet ist, wird geprüft, ob der Spieler über sog. Amphoren verfügt. (noch nicht umgesetzt)
+- Wenn der Spieler über Amphoren verfügt, bekommt der Spieler einen Hinweis, dass er seinen Spielzug verlängern kann, und zwei Schaltflächen zum Verlängern des Spielzugs bzw. zum nicht Verlängern angezeigt. (noch nicht umgesetzt)
+- Entscheidet sich der Spieler für das Verlängern seines Zuges, dass war je nachdem was er zuvor gewählt hat, noch ein Gebäude bauen, ein Gebäude aufdecken oder er bekommt noch eine Resource zugelost. (noch nicht umgesetzt)
+- Sobald der Spieler alle seine Möglichkeiten ausgespielt hat, wird geprüft ob der Spieler eine Amphore durch zusammenhängendes Bauen von Gruppen verdient hat (noch nicht umgesetzt)
+- Wenn der Spieler eine Amphore verdient hat, wird ihm dies für einen bestimmten Zeitraum angezeigt. (noch nicht umgesetzt)
+- Anschließend wird er weitergeleitet und ihm wird angezeigt, welcher Spieler nun an der Reihe ist. (noch nicht umgesetzt)
 
 // Spielende
-- Sobald ein Spieler während seines Zuges alle 30 Gebäude verbaut oder zwei Heiligtümer miteinander verbunden hat, ist das Spiel beendet und wird den Spielern ein Hinweis angezeigt, wenn das Spiel gewonnen hat.
+- Sobald ein Spieler während seines Zuges alle 30 Gebäude verbaut oder zwei Heiligtümer miteinander verbunden hat, ist das Spiel beendet und wird den Spielern ein Hinweis angezeigt, wenn das Spiel gewonnen hat.  (noch nicht umgesetzt)
 
 === Projektidee soenkelange, 2016-04-05 ===
 
