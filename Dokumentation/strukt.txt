@@ -1,3 +1,22 @@
 ===========================================================
 === Strukturelle Elemente, 2016-10-12 ===
 ===========================================================
+== 01 Überschriften 1 ==
+01_01 Spieltitel / Der Titel des Spiels
+
+== 02 Überschriften 2 ==
+02_01 Startseite / Untertitel für die Startseite
+
+== 10 Paragraphen
+10_01 Spielbeschreibung / Beschreibung des Spiels
+10_02 Fehlermeldung / Anzeigen der Fehlermeldung von ungültigen/zu wenigen Spiernamen
+
+== 100 Formulare ==
+01_01 Initialisierungsformular / Eingabe der Spielernamen
+
+== 110 input/submit ==
+110_01 Bestätigen / Abschicken des Initialisierungsformulars
+
+== 111 input/text ==
+111_01 type=text / Eingabe des Spielernamens
+
