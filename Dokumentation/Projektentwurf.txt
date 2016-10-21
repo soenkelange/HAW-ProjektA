@@ -146,3 +146,50 @@ Leider haben Sie ansonsten nichts am Projekt geändert und haben damit seit dem 
 Leider keine Änderungen seit dem letzten Feedback. 
 
 Bitte beachten Sie, dass eine der Voraussetzungen zum Erhalt des Leistungsnachweises darin besteht, dass Sie kontinuierlich am Projekt arbeiten. Wie schon mehrfach erklärt gilt: Kontinuierliches Arbeiten bedeutet jede Woche am Projekt zu arbeiten. Und da für das Projekt ein Arbeitsaufwand von 80 Stunden (innerhalb der 16 Wochen Vorlesungszeit) aufgebracht werden soll, bedeutet das, dass Sie pro Woche 5 Stunden für das Projekt investieren müssen. Dagegen haben Sie seit Beginn des Projekts im Schnitt nur einmal pro Monat am Projekt gearbeitet und dabei jeweils einen Aufwand von ein bis zwei Stunden investiert. Wenn Sie weiterhin derart wenig am Projekt arbeiten, dann muss ich es auf der Basis des aktuellen Stands bewerten.
+
+===================================
+=== Feedback Alpers, 2016-10-21 ===
+===================================
+
+=== 1.) Formales
+
+== 1.1.) Struktur an der falschen Stelle
+
+Der Entwurf soll all das beinhalten, was das Spiel ausmacht. Die Struktur und insbesondere die Ansichten sind erst am anderen Ende der Planung zu notieren. Streichen Sie deshalb alles, bei dem es sich um Begriffe wie "Menü", "Startseite" usw. handelt.
+
+== 1.2.) Funktionalität frühestens nach der Beschreibung des Inhalts
+
+Auch Beschreibungen der Form
+- Wenn nicht mindestens zwei Textfelder mit Text befüllt sind, wird den Spielern eine Fehlermeldung angezeigt, sobald das Formular abgeschickt wird (noch nicht umgesetzt)
+sind am Anfang des Entwurfs falsch, denn dabei handelt es sich um Funktionalitäten bzw. Abläufe und die werden erst dann relevant, wenn es eine Struktur gibt.
+
+== 1.3.) Zu lange Sätze.
+
+Ein weiteres Manko besteht darin, dass Sie zu ausführlich beschreiben. Anstelle von 
+
+- Zwei bis vier Spieler können über vier Texteingabefelder ihren Namen eingeben. (noch nicht umgesetzt)
+- Durch eine Schaltfläche können die Spieler ihre Eingabe bestätigen. (noch nicht umgesetzt)
+- Wenn nicht mindestens zwei Textfelder mit Text befüllt sind, wird den Spielern eine Fehlermeldung angezeigt, sobald das Formular abgeschickt wird (noch nicht umgesetzt)
+- Wenn mindestens zwei Textfelder mit Text befüllt sind, werden die Spieler zum Spiel weitergeleitet, sobald das Formular abgeschickt wird (noch nicht umgesetzt)
+
+wäre das hier eine gute Beschreibung:
+
+- Es gibt einen Log-In.
+
+=== 2.) Inhaltliches
+
+== 2.1.) Beschränkung auf zu wenige Spieler
+
+Im letzten Beispiel zeigt sich leider ein weiterer Mangel: Sie beschränken von vorne herein einzelne Spielpartien auf vier Personen, ohne dass es dafür irgend einen zu diesem Zeitpunkt erkennbaren Grund gäbe.
+
+== 2.2.) Missachtung der Aufgabenstellung "verteilte Anwendung"
+
+Wenn wie oben angegeben die vier Spieler in einer Eingabemaske eingetragen werden, dann ist es offensichtlich, dass das Spiel von den Spielern einer Partie auf einem Rechner gespielt wird. Und das steht im Widerspruch zur Anforderung, eine verteilte Anwendung zu entwerfen.
+
+=== 3.) Zusammenfassung
+
+Aufgrund der genannten  ist zurzeit keine Wertung möglich.
+
+Es ist deshalb auch nicht möglich, eine sinnvolle Struktur aus der Beschreibung abzuleiten, da Sie hier diesen Schritt bereits durchgeführt haben. Also ist eine sinnvolle Wertung der strukt.txt ebenfalls nicht möglich.
+
+Zur Erinnerung: Hier soll zunächst einzig anhand von Stichpunkten erläutert werden, was alles für das Spiel vorhanden sein soll. Erst danach entwickeln Sie in der strukt.txt die Struktur und erst danach die Funktionalitäten, die einen Spielablauf realisieren. Im Laufe dieser Arbeit werden Sie immer wieder an frühere Stellen zurückkehren, weil Ihnen neue Ideen gekommen sind oder es sich zeigt, dass bestimmte Ideen so nicht umsetzbar ist, dass z.B. weniger oder mehr strukturelle Elemente bzw. Gruppen nötig sind. Sie müssen lernen, sich zum jeweiligen Zeitpunkt auf eine dieser Aufgabenstellungen zu konzentrieren und eben nicht alles zu vermischen, so wie Sie es hier tun. Denn dann ist die ganze Planungsarbeit überflüssig. Dann können sie gleich drauflosprogrammieren und erleben eine Bauchlandung, wenn Sie später versuchen Fehler zu korrigieren oder das bestehende Projekt zu erweitern.
