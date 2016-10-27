@@ -1,5 +1,14 @@
 === Jetzt nach den Regeln für das Projekt 1, WiSe 2016/17 ===
 ==============================================================================
+=== Projektbeschreibung - Brettspiel Attika, v_2.0.0, 2016-10-27 ===
+==============================================================================
+Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
+
+- Spieler können eine neue Spielpartie starten
+- Über einen individuell für die Spielpartie generierten Link können weitere Spieler an der Spielpartie teilnehmen
+- Sobald min. zwei Spieler einer Spielpartie beigetreten sind, kann das Spiel gestartet werden
+
+
 === Projektbeschreibung - Brettspiel Attika, v_1.1.1, 2016-10-12 ===
 ==============================================================================
 
