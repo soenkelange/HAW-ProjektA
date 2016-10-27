@@ -11,7 +11,7 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 // Inhalt
 - Schaltfäche zum Starten einer Spielpartie
 - Schaltfläche und Textfeld, um einer Spielpartie beizutreten
-////Spielfeld
+//// Spielfeld
 - pro Spieler ein Heiligtum am Spielfeldrand
 - Felder entsprechen Bauplätzen
 - Felder, die Landschaftssymbole enthalten
@@ -35,6 +35,16 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Zufallsgenerator, um den Spieler der Anfängt zu ermittelnt
 - Zufallsgenerator, um jedem Spieler ein Hauptgebäude und drei Nebengebäude zu zu losen
 - Zufallsgenerator, um jedem Spieler abhängig von der Position in der Spielerreihenfolge Resourcen zu zu losen
+- Zufallsgenerator, um einem Spieler ein Hauptgebäude zu zu losen
+- Zufallsgenerator, um einem Spieler ein Nebengebäude zu zu losen
+- Funktion zum Ermitteln der Anzahl von Resourcen, die ein Spieler in einem Spielschritt erhalten kann
+- Zufallsgenerator, um einem Spieler eine bestimmte Anzahl an Resource zu zu losen
+- Funktion zum überprüfen, ob ein Spieler alle Gebäude einer Baugruppe zusammenhängend verbaut hat
+- Funktion zur Berechnung der Baukosten eines bestimmten Gebäudes auf einem bestimmten Spielfeld
+- Funktion zum Überprüfen, ob ein Spieler gewonnen hat
+- Funktion zum Überprüfen, ob ein Spieler 30 Gebäude verbaut hat
+- Funktion zum Überprüfen, ob ein Spieler zwei Heiligtümer durch Gebäude verbunden hat
+
 
 
 ==============================================================================
