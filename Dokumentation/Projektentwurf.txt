@@ -8,7 +8,31 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Über einen individuell für die Spielpartie generierten Link können weitere Spieler an der Spielpartie teilnehmen
 - Sobald min. zwei Spieler einer Spielpartie beigetreten sind, kann das Spiel gestartet werden
 
+// Inhalt
+- Schaltfäche zum Starten einer Spielpartie
+- Schaltfläche und Textfeld, um einer Spielpartie beizutreten
+////Spielfeld
+- pro Spieler ein Heiligtum am Spielfeldrand
+- Felder entsprechen Bauplätzen
+- Felder, die Landschaftssymbole enthalten
+- Felder, auf denen ein Gebäude gebaut wurde
 
+
+// Abläufe und Funktionalitäten
+- Zufallsgenerator, um einen Link zum Einladen von Spielern zu generieren
+- Funktion zur Überprüfung des Links zum Beitreten des Spiels
+- Funktion, um einen Spieler einer Spielpartie hinzuzufügen
+- Funktion, die überprüft, ob min. zwei Spieler einer Spielpartie beigetreten sind
+- Funktion, die Anzeigt, wie viele Spieler der Spielpartie beigetreten sind
+- Funktion zum Starten eines Spiels
+- Abhängig von der Anzahl der Spieler wird das Spielfeld generiert
+- Zufallsgenerator, um einer Anzahl von Spielfelder (Abhängig von der Spielfeldgröße) ein Landschaftssymbol zu zu ordnen
+- Zufallsgenerator, um den Spieler der Anfängt zu ermittelnt
+- Zufallsgenerator, um jedem Spieler ein Hauptgebäude und drei Nebengebäude zu zu weisen
+- Zufallsgenerator, um jedem Spieler abhängig von der Position in der Spielerreihenfolge Resourcen zu zu weisen
+
+
+==============================================================================
 === Projektbeschreibung - Brettspiel Attika, v_1.1.1, 2016-10-12 ===
 ==============================================================================
 
@@ -131,8 +155,8 @@ Wertung 2: Projektbeschreibung: gesamt: 5 / 10
 - Pro Interaktionsmöglichkeit: 0 (Da Sie die Interaktion zwischen Mensch und Programm noch nicht ausgearbeitet haben. Schauen Sie sich ggf. nochmal an, was ich zum Begriff der Interaktion geschrieben hatte.)
 - Knappe aber klare Beschreibung: 5
 - Werbeslogans u.ä.: 0
-- Designaspekte: 0 
-- Voraussetzung bekannten Wissens: 0 
+- Designaspekte: 0
+- Voraussetzung bekannten Wissens: 0
 
 ===================================
 === Feedback Alpers, 2016-06-14 ===
@@ -152,7 +176,7 @@ Leider haben Sie ansonsten nichts am Projekt geändert und haben damit seit dem 
 === Feedback Alpers, 2016-07-28 ===
 ===================================
 
-Leider keine Änderungen seit dem letzten Feedback. 
+Leider keine Änderungen seit dem letzten Feedback.
 
 Bitte beachten Sie, dass eine der Voraussetzungen zum Erhalt des Leistungsnachweises darin besteht, dass Sie kontinuierlich am Projekt arbeiten. Wie schon mehrfach erklärt gilt: Kontinuierliches Arbeiten bedeutet jede Woche am Projekt zu arbeiten. Und da für das Projekt ein Arbeitsaufwand von 80 Stunden (innerhalb der 16 Wochen Vorlesungszeit) aufgebracht werden soll, bedeutet das, dass Sie pro Woche 5 Stunden für das Projekt investieren müssen. Dagegen haben Sie seit Beginn des Projekts im Schnitt nur einmal pro Monat am Projekt gearbeitet und dabei jeweils einen Aufwand von ein bis zwei Stunden investiert. Wenn Sie weiterhin derart wenig am Projekt arbeiten, dann muss ich es auf der Basis des aktuellen Stands bewerten.
 
@@ -174,7 +198,7 @@ sind am Anfang des Entwurfs falsch, denn dabei handelt es sich um Funktionalitä
 
 == 1.3.) Zu lange Sätze.
 
-Ein weiteres Manko besteht darin, dass Sie zu ausführlich beschreiben. Anstelle von 
+Ein weiteres Manko besteht darin, dass Sie zu ausführlich beschreiben. Anstelle von
 
 - Zwei bis vier Spieler können über vier Texteingabefelder ihren Namen eingeben. (noch nicht umgesetzt)
 - Durch eine Schaltfläche können die Spieler ihre Eingabe bestätigen. (noch nicht umgesetzt)
