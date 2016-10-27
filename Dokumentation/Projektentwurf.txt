@@ -28,8 +28,8 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Abhängig von der Anzahl der Spieler wird das Spielfeld generiert
 - Zufallsgenerator, um einer Anzahl von Spielfelder (Abhängig von der Spielfeldgröße) ein Landschaftssymbol zu zu ordnen
 - Zufallsgenerator, um den Spieler der Anfängt zu ermittelnt
-- Zufallsgenerator, um jedem Spieler ein Hauptgebäude und drei Nebengebäude zu zu weisen
-- Zufallsgenerator, um jedem Spieler abhängig von der Position in der Spielerreihenfolge Resourcen zu zu weisen
+- Zufallsgenerator, um jedem Spieler ein Hauptgebäude und drei Nebengebäude zu zu losen
+- Zufallsgenerator, um jedem Spieler abhängig von der Position in der Spielerreihenfolge Resourcen zu zu losen
 
 
 ==============================================================================
