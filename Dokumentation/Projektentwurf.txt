@@ -16,6 +16,11 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Felder entsprechen Bauplätzen
 - Felder, die Landschaftssymbole enthalten
 - Felder, auf denen ein Gebäude gebaut wurde
+//// Ablagetafel
+- Auflistung aller gezogenen und nicht verbauten Gebäude
+- Darstellung der sinnvollen Baureihenfolge
+- Auflistung aller erhaltenen und nicht verbauten Resourcen
+- Auflistung der verfügbaren Amphoren
 
 
 // Abläufe und Funktionalitäten
