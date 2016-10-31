@@ -1,6 +1,6 @@
 === Jetzt nach den Regeln für das Projekt 1, WiSe 2016/17 ===
 ==============================================================================
-=== Projektbeschreibung - Brettspiel Attika, v_2.0.0, 2016-10-27 ===
+=== Projektbeschreibung - Brettspiel Attika, v_2.1.0, 2016-10-31 ===
 ==============================================================================
 Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
@@ -9,8 +9,9 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Sobald min. zwei Spieler einer Spielpartie beigetreten sind, kann das Spiel gestartet werden
 
 // Inhalt
-- Schaltfäche zum Starten einer Spielpartie
-- Schaltfläche und Textfeld, um einer Spielpartie beizutreten
+- Seite, um eine Spielpartie zu starten
+- Seite, um einer Spielpartie beizutreten
+- Seite, um auf Mitspieler zu warten und Spiel zu entgültig zu starten
 //// Spielfeld
 - pro Spieler ein Heiligtum am Spielfeldrand
 - Felder entsprechen Bauplätzen
@@ -21,7 +22,13 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Darstellung der sinnvollen Baureihenfolge
 - Auflistung aller erhaltenen und nicht verbauten Resourcen
 - Auflistung der verfügbaren Amphoren
-
+//// Spielablauf
+- Auswahl für die Wahl zwischen Aufdecken von Gebäuden oder Bauen von Gebäuden
+- Auswahl für die Wahl zwischen Hauptgebäude, Nebengebäude und ziehen von Resourcen
+- Auswahl für die Wahl zwischen Bauen eines Gebäudes und dem ziehen von Resourcen
+- Auswahl für die Wahl beliebiger Resourcen zum Bau von Straßen
+- Auswahl zum Verlängern eines Spielzuges
+- Auflistung der Baukosten eines Gebäudes auf einem Spielfeld
 
 // Abläufe und Funktionalitäten
 - Zufallsgenerator, um einen Link zum Einladen von Spielern zu generieren
