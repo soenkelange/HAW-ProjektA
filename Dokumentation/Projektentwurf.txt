@@ -46,13 +46,15 @@ Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung se
 - Zufallsgenerator, um einem Spieler ein Nebengebäude zu zu losen
 - Funktion zum Ermitteln der Anzahl von Resourcen, die ein Spieler in einem Spielschritt erhalten kann
 - Zufallsgenerator, um einem Spieler eine bestimmte Anzahl an Resource zu zu losen
-- Funktion zum überprüfen, ob ein Spieler alle Gebäude einer Baugruppe zusammenhängend verbaut hat
+- Funktion zum Platzieren eines Gebäudes auf dem Spielfeld
+- Funktion zum entfernen von Gebäuden und Resourcen von der Ablagetafel
+- Funktion zum Überprüfen, on ein Spieler seinen Zug mit Amphoren verlängern kann
+- Funktion zum Überprüfen, ob ein Spieler alle Gebäude einer Baugruppe zusammenhängend verbaut hat
 - Funktion zur Berechnung der Baukosten eines bestimmten Gebäudes auf einem bestimmten Spielfeld
+- Funktion zur Überprüfung, ob ein Spielzug beendet ist
 - Funktion zum Überprüfen, ob ein Spieler gewonnen hat
 - Funktion zum Überprüfen, ob ein Spieler 30 Gebäude verbaut hat
 - Funktion zum Überprüfen, ob ein Spieler zwei Heiligtümer durch Gebäude verbunden hat
-
-
 
 ==============================================================================
 === Projektbeschreibung - Brettspiel Attika, v_1.1.1, 2016-10-12 ===
