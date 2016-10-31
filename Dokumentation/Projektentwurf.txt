@@ -4,57 +4,57 @@
 ==============================================================================
 Ziel des Projektes soll die Umsetzung des Brettspiels Attika als Webanwendung sein, bei dem zwei bis vier Spieler einen antiken Stadtstaat aufbauen oder zwei sogenannte Heiligtümer miteinander verbinden müssen.
 
-- Spieler können eine neue Spielpartie starten
-- Über einen individuell für die Spielpartie generierten Link können weitere Spieler an der Spielpartie teilnehmen
-- Sobald min. zwei Spieler einer Spielpartie beigetreten sind, kann das Spiel gestartet werden
+- Spieler können eine neue Spielpartie starten (noch nicht umgesetzt)
+- Über einen individuell für die Spielpartie generierten Link können weitere Spieler an der Spielpartie teilnehmen (noch nicht umgesetzt)
+- Sobald min. zwei Spieler einer Spielpartie beigetreten sind, kann das Spiel gestartet werden (noch nicht umgesetzt)
 
 // Inhalt
-- Seite, um eine Spielpartie zu starten
-- Seite, um einer Spielpartie beizutreten
-- Seite, um auf Mitspieler zu warten und Spiel zu entgültig zu starten
+- Seite, um eine Spielpartie zu starten (noch nicht umgesetzt)
+- Seite, um einer Spielpartie beizutreten (noch nicht umgesetzt)
+- Seite, um auf Mitspieler zu warten und Spiel zu entgültig zu starten (noch nicht umgesetzt)
 //// Spielfeld
-- pro Spieler ein Heiligtum am Spielfeldrand
-- Felder entsprechen Bauplätzen
-- Felder, die Landschaftssymbole enthalten
-- Felder, auf denen ein Gebäude gebaut wurde
-//// Ablagetafel
-- Auflistung aller gezogenen und nicht verbauten Gebäude
-- Darstellung der sinnvollen Baureihenfolge
-- Auflistung aller erhaltenen und nicht verbauten Resourcen
-- Auflistung der verfügbaren Amphoren
+- pro Spieler ein Heiligtum am Spielfeldrand (noch nicht umgesetzt)
+- Felder entsprechen Bauplätzen (noch nicht umgesetzt)
+- Felder, die Landschaftssymbole enthalten (noch nicht umgesetzt)
+- Felder, auf denen ein Gebäude gebaut wurde (noch nicht umgesetzt)
+//// Ablagetafel (noch nicht umgesetzt)
+- Auflistung aller gezogenen und nicht verbauten Gebäude (noch nicht umgesetzt)
+- Darstellung der sinnvollen Baureihenfolge (noch nicht umgesetzt)
+- Auflistung aller erhaltenen und nicht verbauten Resourcen (noch nicht umgesetzt)
+- Auflistung der verfügbaren Amphoren (noch nicht umgesetzt)
 //// Spielablauf
-- Auswahl für die Wahl zwischen Aufdecken von Gebäuden oder Bauen von Gebäuden
-- Auswahl für die Wahl zwischen Hauptgebäude, Nebengebäude und ziehen von Resourcen
-- Auswahl für die Wahl zwischen Bauen eines Gebäudes und dem ziehen von Resourcen
-- Auswahl für die Wahl beliebiger Resourcen zum Bau von Straßen
-- Auswahl zum Verlängern eines Spielzuges
-- Auflistung der Baukosten eines Gebäudes auf einem Spielfeld
+- Auswahl für die Wahl zwischen Aufdecken von Gebäuden oder Bauen von Gebäuden (noch nicht umgesetzt)
+- Auswahl für die Wahl zwischen Hauptgebäude, Nebengebäude und ziehen von Resourcen (noch nicht umgesetzt)
+- Auswahl für die Wahl zwischen Bauen eines Gebäudes und dem ziehen von Resourcen (noch nicht umgesetzt)
+- Auswahl für die Wahl beliebiger Resourcen zum Bau von Straßen (noch nicht umgesetzt)
+- Auswahl zum Verlängern eines Spielzuges (noch nicht umgesetzt)
+- Auflistung der Baukosten eines Gebäudes auf einem Spielfeld (noch nicht umgesetzt)
 
 // Abläufe und Funktionalitäten
-- Zufallsgenerator, um einen Link zum Einladen von Spielern zu generieren
-- Funktion zur Überprüfung des Links zum Beitreten des Spiels
-- Funktion, um einen Spieler einer Spielpartie hinzuzufügen
-- Funktion, die überprüft, ob min. zwei Spieler einer Spielpartie beigetreten sind
-- Funktion, die Anzeigt, wie viele Spieler der Spielpartie beigetreten sind
-- Funktion zum Starten eines Spiels
-- Abhängig von der Anzahl der Spieler wird das Spielfeld generiert
-- Zufallsgenerator, um einer Anzahl von Spielfelder (Abhängig von der Spielfeldgröße) ein Landschaftssymbol zu zu ordnen
-- Zufallsgenerator, um den Spieler der Anfängt zu ermittelnt
-- Zufallsgenerator, um jedem Spieler ein Hauptgebäude und drei Nebengebäude zu zu losen
-- Zufallsgenerator, um jedem Spieler abhängig von der Position in der Spielerreihenfolge Resourcen zu zu losen
-- Zufallsgenerator, um einem Spieler ein Hauptgebäude zu zu losen
-- Zufallsgenerator, um einem Spieler ein Nebengebäude zu zu losen
-- Funktion zum Ermitteln der Anzahl von Resourcen, die ein Spieler in einem Spielschritt erhalten kann
-- Zufallsgenerator, um einem Spieler eine bestimmte Anzahl an Resource zu zu losen
-- Funktion zum Platzieren eines Gebäudes auf dem Spielfeld
-- Funktion zum entfernen von Gebäuden und Resourcen von der Ablagetafel
-- Funktion zum Überprüfen, on ein Spieler seinen Zug mit Amphoren verlängern kann
-- Funktion zum Überprüfen, ob ein Spieler alle Gebäude einer Baugruppe zusammenhängend verbaut hat
-- Funktion zur Berechnung der Baukosten eines bestimmten Gebäudes auf einem bestimmten Spielfeld
-- Funktion zur Überprüfung, ob ein Spielzug beendet ist
-- Funktion zum Überprüfen, ob ein Spieler gewonnen hat
-- Funktion zum Überprüfen, ob ein Spieler 30 Gebäude verbaut hat
-- Funktion zum Überprüfen, ob ein Spieler zwei Heiligtümer durch Gebäude verbunden hat
+- Zufallsgenerator, um einen Link zum Einladen von Spielern zu generieren (noch nicht umgesetzt)
+- Funktion zur Überprüfung des Links zum Beitreten des Spiels (noch nicht umgesetzt)
+- Funktion, um einen Spieler einer Spielpartie hinzuzufügen (noch nicht umgesetzt)
+- Funktion, die überprüft, ob min. zwei Spieler einer Spielpartie beigetreten sind (noch nicht umgesetzt)
+- Funktion, die Anzeigt, wie viele Spieler der Spielpartie beigetreten sind (noch nicht umgesetzt)
+- Funktion zum Starten eines Spiels (noch nicht umgesetzt)
+- Abhängig von der Anzahl der Spieler wird das Spielfeld generiert (noch nicht umgesetzt)
+- Zufallsgenerator, um einer Anzahl von Spielfelder (Abhängig von der Spielfeldgröße) ein Landschaftssymbol zu zu ordnen (noch nicht umgesetzt)
+- Zufallsgenerator, um den Spieler der Anfängt zu ermittelnt (noch nicht umgesetzt)
+- Zufallsgenerator, um jedem Spieler ein Hauptgebäude und drei Nebengebäude zu zu losen (noch nicht umgesetzt)
+- Zufallsgenerator, um jedem Spieler abhängig von der Position in der Spielerreihenfolge Resourcen zu zu losen (noch nicht umgesetzt)
+- Zufallsgenerator, um einem Spieler ein Hauptgebäude zu zu losen (noch nicht umgesetzt)
+- Zufallsgenerator, um einem Spieler ein Nebengebäude zu zu losen (noch nicht umgesetzt)
+- Funktion zum Ermitteln der Anzahl von Resourcen, die ein Spieler in einem Spielschritt erhalten kann (noch nicht umgesetzt)
+- Zufallsgenerator, um einem Spieler eine bestimmte Anzahl an Resource zu zu losen (noch nicht umgesetzt)
+- Funktion zum Platzieren eines Gebäudes auf dem Spielfeld (noch nicht umgesetzt)
+- Funktion zum entfernen von Gebäuden und Resourcen von der Ablagetafel (noch nicht umgesetzt)
+- Funktion zum Überprüfen, on ein Spieler seinen Zug mit Amphoren verlängern kann (noch nicht umgesetzt)
+- Funktion zum Überprüfen, ob ein Spieler alle Gebäude einer Baugruppe zusammenhängend verbaut hat (noch nicht umgesetzt)
+- Funktion zur Berechnung der Baukosten eines bestimmten Gebäudes auf einem bestimmten Spielfeld (noch nicht umgesetzt)
+- Funktion zur Überprüfung, ob ein Spielzug beendet ist (noch nicht umgesetzt)
+- Funktion zum Überprüfen, ob ein Spieler gewonnen hat (noch nicht umgesetzt)
+- Funktion zum Überprüfen, ob ein Spieler 30 Gebäude verbaut hat (noch nicht umgesetzt)
+- Funktion zum Überprüfen, ob ein Spieler zwei Heiligtümer durch Gebäude verbunden hat (noch nicht umgesetzt)
 
 ==============================================================================
 === Projektbeschreibung - Brettspiel Attika, v_1.1.1, 2016-10-12 ===
