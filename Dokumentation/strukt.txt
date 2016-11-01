@@ -3,15 +3,18 @@
 ===========================================================
 == 01 Paragraph ==
 01_01 SpielstartHilfe / Erklärung für Spielstart
+01_02 Einladungstext / Einladungstext zu einer Spielpartie
 
 == 10 Überschrift 1 ==
 10_01 Spieltitel / Titel des Spiels
 
 == 10 Überschrift 2 ==
 10_01 Spielstart / Überschrift für den Spielstart
+10_02 Spielname / Name der zur Einladung gehörigen Spielpartie
 
 == 100 Formular ==
 100_01 SpielpartieEinrichten / Spielname eingeben und Spielpartie starten
+100_02 Mitspielen / Formular um an einem Spiel teilzunehmen
 
 == 101 Label ==
 101_01 Spielname / Kennzeichnung des Textfeldes für den Spielpartienamen
@@ -23,6 +26,7 @@
 
 == 103 input/submit ==
 103_01 Starten / Link zum Mitspieler einladen wird erstellt
+103_02 Mitspielen / Spieler nimmt an Spielpartie teil
 
 == 105 input/reset ==
 
