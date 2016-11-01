@@ -1,5 +1,5 @@
 ===========================================================
-=== Strukturelle Elemente, 2016-10-31 ===
+=== Strukturelle Elemente, 2016-11-01 ===
 ===========================================================
 == 01 Paragraph ==
 01_01 SpielstartHilfe / Erklärung für Spielstart
