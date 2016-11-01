@@ -4,13 +4,18 @@
 == 01 Paragraph ==
 01_01 SpielstartHilfe / Erklärung für Spielstart
 01_02 Einladungstext / Einladungstext zu einer Spielpartie
+01_03 HinweisMitspielerWarten / Hinweis für das Warten auf Mitspieler
+
+== 02 Liste ==
+02_01 Mitspieler / Liste von Spielern die einer Spielpartie beigetreten sind
 
 == 10 Überschrift 1 ==
 10_01 Spieltitel / Titel des Spiels
 
-== 10 Überschrift 2 ==
+== 11 Überschrift 2 ==
 10_01 Spielstart / Überschrift für den Spielstart
 10_02 Spielname / Name der zur Einladung gehörigen Spielpartie
+10_03 MitspielerWarten / Überschrift für das Warten auf Mitspieler
 
 == 100 Formular ==
 100_01 SpielpartieEinrichten / Spielname eingeben und Spielpartie starten
@@ -33,4 +38,7 @@
 == 106 input/text ==
 106_01 Spielpartiename / Name für die Spielpartie
 106_02 Spielername / Name des Spielers
+106_03 Einladungslink / Link zur Einladung zum Versenden an Mitspieler
 
+== 200 Button ==
+200_01 Aktualisieren / Button zum Aktualisieren der Mitspielerliste
