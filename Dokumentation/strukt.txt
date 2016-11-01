@@ -1,4 +1,32 @@
 ===========================================================
 === Strukturelle Elemente, 2016-10-31 ===
 ===========================================================
+== 01 Paragraph ==
+01_01 SpielstartHilfe / Erklärung für Spielstart
+
+== 10 Überschrift 1 ==
+10_01 Spieltitel / Titel des Spiels
+
+== 10 Überschrift 2 ==
+10_01 Spielstart / Überschrift für den Spielstart
+
+== 100 Formular ==
+100_01 SpielpartieEinrichten / Spielname eingeben und Spielpartie starten
+
+== 101 Label ==
+101_01 Spielname / Kennzeichnung des Textfeldes für den Spielpartienamen
+101_02 Einladungstext / Kennzeichnung des Textareas für den Einladungstext
+101_03 SpielerName / Kennzeichnung des Textfeldes für den Spielernamen
+
+== 102 Textarea ==
+102_01 Nachricht / Einladungstext für Mitspieler
+
+== 103 input/submit ==
+103_01 Starten / Link zum Mitspieler einladen wird erstellt
+
+== 105 input/reset ==
+
+== 106 input/text ==
+106_01 Spielpartiename / Name für die Spielpartie
+106_02 Spielername / Name des Spielers
 
